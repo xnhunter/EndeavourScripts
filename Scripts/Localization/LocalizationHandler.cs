@@ -85,7 +85,7 @@ public class LocalizationHandler : MonoBehaviour {
 
 		if (followSystemSettings) {
 
-			// Couldn't math system language with existed ones.
+			// Couldn't match system language with existed ones.
 			if(JSONFileText == string.Empty)
 			{
 				Awake();
