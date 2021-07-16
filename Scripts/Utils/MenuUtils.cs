@@ -38,7 +38,9 @@ public class MenuUtils : MonoBehaviour {
 	public void ProductVersion() {
 		Version.text = Application.version;
 		
-		if(int.Parse(Application.version) < 1.0)
+		var app_ver = 0;
+		int.TryParse(Application.version, out app_ver);
+		if (app_ver < 1.0)
 			Version.text += " BETA";
 
 		Debug.Log (Version.text);
