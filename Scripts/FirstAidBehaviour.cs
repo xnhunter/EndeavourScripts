@@ -9,16 +9,9 @@ public class FirstAidBehaviour : MonoBehaviour
 	public int HealthAdd;
 	private int hitpoints = 1;
 
-	// Use this for initialization
 	void Start()
 	{
 		Player = GameObject.FindGameObjectWithTag("Player");
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
