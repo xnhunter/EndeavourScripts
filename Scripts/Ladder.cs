@@ -7,14 +7,6 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Ladder : MonoBehaviour {
 	public float speed = 4.0f;
 
-	void Start () {
-		
-	}
-	
-	void Update () {
-		
-	}
-
 	void OnTriggerStay2D(Collider2D collider)
 	{
 		if (collider.tag == "Player")
