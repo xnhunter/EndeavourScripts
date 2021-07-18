@@ -10,10 +10,6 @@ public class TipBehaviour : MonoBehaviour {
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag("Player");
 	}
-	
-	void Update () {
-
-	}
 
 	private void OnTriggerEnter2D (Collider2D collision) {
 		if (collision.gameObject == Player)
