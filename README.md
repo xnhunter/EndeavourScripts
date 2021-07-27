@@ -9,4 +9,4 @@ The game also uses two more libraries:
 +  SpriteLightKit
 +  Standart Assets
 
-## Made with love and Unity Engine.
+## Made with love and Unity.
