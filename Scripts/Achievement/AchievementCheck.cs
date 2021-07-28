@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-// Checks if an achievement is unlocked to consequently aware user.
+// Checks if an achievement is unlocked to consequently aware player.
 // Achievement Pref States:
 // 0 - locked
 // 1 - unlocked
